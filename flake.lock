@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "ds4-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793721302,
+        "narHash": "sha256-XccxnYqo33w1mNZNAMFx/rdPhO57lxQ/oKPGSyxzh0E=",
+        "owner": "crertel",
+        "repo": "ds4",
+        "rev": "b3f50180ec2c7324892be1f50bc83555ccb8d5e7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "crertel",
+        "repo": "ds4",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794890597,
+        "narHash": "sha256-lME2lHoDHAaSHP3/okgiVoJ0icVEvsQH8LeU3We7tcc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "04906337b6d53e8bb0eaf0470ae9f070a4d4eb55",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ds4-src": "ds4-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
